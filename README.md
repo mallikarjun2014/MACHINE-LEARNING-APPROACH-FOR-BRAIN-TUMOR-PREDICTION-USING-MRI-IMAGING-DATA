@@ -1,7 +1,7 @@
+Overview
 Brain tumors are among the most serious neurological disorders, and early detection plays a vital role in improving patient outcomes. This project presents a machine learning-based approach for predicting brain tumors from MRI (Magnetic Resonance Imaging) images. By analyzing MRI scans, the system classifies images into different tumor categories or identifies healthy brain scans. The goal is to provide a reliable, accurate, and efficient diagnostic support tool that can assist medical professionals in the early detection of brain tumors.
 
 Problem Statement
-
 Manual examination of MRI scans is a time-consuming process and requires significant expertise from radiologists. Variations in tumor size, shape, and location make diagnosis challenging. This project aims to automate the classification process using machine learning techniques, reducing diagnostic time while maintaining high prediction accuracy.
 
 Objectives
@@ -41,23 +41,19 @@ Jupyter Notebook
 Dataset
 
 The model is trained using MRI brain images containing the following classes:
-
 Yes Tumor
 No Tumor
 
 The dataset is divided into training and testing sets to evaluate the model's performance effectively.
-
 Model Evaluation
 
 The performance of the trained model is measured using:
-
 Accuracy
 Precision
 Recall
 F1-Score
 Confusion Matrix
 ROC-AUC 
-
 These metrics help assess the model's effectiveness in classifying brain MRI images accurately.
 
 Conclusion
