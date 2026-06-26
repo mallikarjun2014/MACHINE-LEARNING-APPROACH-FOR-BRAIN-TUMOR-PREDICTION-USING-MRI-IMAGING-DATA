@@ -1,4 +1,5 @@
 Overview
+
 Brain tumors are among the most serious neurological disorders, and early detection plays a vital role in improving patient outcomes. This project presents a machine learning-based approach for predicting brain tumors from MRI (Magnetic Resonance Imaging) images. By analyzing MRI scans, the system classifies images into different tumor categories or identifies healthy brain scans. The goal is to provide a reliable, accurate, and efficient diagnostic support tool that can assist medical professionals in the early detection of brain tumors.
 
 Problem Statement
@@ -15,12 +16,23 @@ Methodology
 
 The project follows a structured machine learning pipeline:
 
-Data Collection: MRI brain scan images are collected from a publicly available dataset.
-Image Preprocessing: Images are resized, normalized, and enhanced to improve quality.
-Feature Extraction: Relevant image features are extracted for model training.
-Model Training: Supervised machine learning algorithms are trained using the processed dataset.
-Model Evaluation: Models are evaluated using metrics such as accuracy, precision, recall, and F1-score.
-Prediction: The trained model predicts whether an MRI image contains a brain tumor and identifies its class.
+Data Collection
+MRI brain scan images are collected from a publicly available dataset.
+
+Image Preprocessing
+Images are resized, normalized, and enhanced to improve quality.
+
+Feature Extraction
+Relevant image features are extracted for model training.
+
+Model Training
+Supervised machine learning algorithms are trained using the processed dataset.
+
+Model Evaluation
+Models are evaluated using metrics such as accuracy, precision, recall, and F1-score.
+Prediction
+The trained model predicts whether an MRI image contains a brain tumor and identifies its class.
+
 Features
 MRI image preprocessing
 Brain tumor detection and classification
@@ -38,8 +50,8 @@ TensorFlow/Keras
 Matplotlib
 Seaborn
 Jupyter Notebook
-Dataset
 
+Dataset
 The model is trained using MRI brain images containing the following classes:
 Yes Tumor
 No Tumor
